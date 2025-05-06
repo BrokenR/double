@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="869b8a76-7db6-4521-b9ea-b7202cd51617">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="869b8a76-7db6-4521-b9ea-b7202cd51617">
   <producedTypes>
     <objectType typeId="2719fa0d-32c1-470c-a2d5-d32cd81530e6" valueTypeId="8fd4d97a-3d15-4227-924f-4d2803309d70"/>
     <refType typeId="9f3dcbab-86ba-4ff0-abdb-bb8616334bbb" valueTypeId="82a63b10-927c-4656-ae73-ad7285a15a6c"/>
@@ -30,4 +30,22 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="323de114-32c8-4c96-a8f4-57a81411c4e2">
+    <name>Гавнище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гавнище</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
